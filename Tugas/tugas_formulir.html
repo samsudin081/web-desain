@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan form html</title>
+</head>
+<body>
+	<h1>Formulir</h1>
+	<form method="get">
+		<fieldset> 
+			<legend>data diri</legend>
+		<label for="nama">Nama</label><br><br>
+				<input type="text" name="nama" id="nama" placeholder="Nama anda"><br><br>
+		<label for="jenis_kelamin">Jenis Kelamin</label><br><br>
+				<input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="laki">Laki-laki
+				<input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Perempuan">Perempuan <br><br>
+		<label for="Agama">Agama</label><br><br>
+				<select>
+							<option>islam</option> 
+							<option>kristen katolik</option>
+							<option>kristen protestan</option>
+							<option>hindu</option>
+							<option>budha</option>
+							<option>konghucu</option><br><br>
+				</select><br><br>
+		<label for="tmpt">Tempat Lahir</label><br><br>
+		<input type="tmpt" name="tmpt" id="tmpt"><br><br>
+		<label for="tgl_lhir">Tanggal Lahir</label><br><br>
+		<input type="date" name="tgl_lhir" id="tgl_lhir"><br><br>
+		
+		<label>Alamat</label><br><br>
+			<textarea cols="60" rows="10" placeholder="wajib menulis pesan anda"></textarea><br><br>
+			</fieldset><br><br>
+	
+	<fieldset>
+		<legend>Pendidikan</legend>
+		<label for="sd">SD</label>
+		<input type="text" name="sd" id="sd">
+		<label for="masuk">masuk</label>
+		<input type="month" name="masuk" id="masuk">
+		<label for="lulus">lulus</label>
+		<input type="month" name="lulus" id="lulus"><br><br>
+		<label for="sd">SMP</label>
+		<input type="text" name="sd" id="sd">
+		<label for="masuk">masuk</label>
+		<input type="month" name="masuk" id="masuk">
+		<label for="lulus">lulus</label>
+		<input type="month" name="lulus" id="lulus"><br><br>
+		<label for="sd">SMA</label>
+		<input type="text" name="sd" id="sd">
+		<label for="masuk">masuk</label>
+		<input type="month" name="masuk" id="masuk">
+		<label for="lulus">lulus</label>
+		<input type="month" name="lulus" id="lulus"><br><br>
+	</fieldset><br><br>
+	<fieldset>
+		<legend>Pelatihan</legend>
+		<label for="minat">Minat</label><br><br>
+		<input type="checkbox" name="minat" id="minat">HTML
+		<input type="checkbox" name="minat" id="minat">CSS
+		<input type="checkbox" name="minat" id="minat">javascript<br><br>
+		<label for="kompetensi">Kompetensi</label><br><br>
+		<input type="checkbox" name="kompetensi" id="kompetensi">HTML
+		<input type="checkbox" name="kompetensi" id="kompetensi">CSS
+		<input type="checkbox" name="kompetensi" id="kompetensi">javascript	<br><br>
+		
+		</fieldset><br><br>
+		<input type="submit" name="" value="kirim">
+		<input type="submit" name="" value="hapus"><br><br>
+		</form>
+</body>
+</html>

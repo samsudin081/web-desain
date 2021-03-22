@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media query </title>
+
+	<style>
+		body{
+			max-width: 800px;
+		}
+		.button-group{
+			display: flex;
+		}
+		button{
+			font-size: 25px;
+			width: 100%;
+
+		}
+		/*penerapan media query*/
+		@media(max-width: 600px){
+			.button-group{
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	</style>
+</head>
+<body>
+ <img src="sally.jpg" width="100%">
+ <div class="button-group">
+ 	<button>Talk to us</button>
+ 	<button>download sylabus</button>
+ 	<button>be a patner	</button>
+ 	<button>join class</button>
+ </div>
+</body>
+</html>

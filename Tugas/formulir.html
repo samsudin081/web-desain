@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulir pada html</title>
+</head>
+<body>
+	<!-- membuat form dengan metode "get" -->
+	<form method="get">
+		<!-- fieldset memberikan border pada halaman form -->
+		<fieldset>
+			<!-- legend diginalan untuk menambahan nama pada border -->
+			<legend align="center">Formulir Pendaftaran</legend>
+				<!-- membuat label nama, penggunaan "for" harus diikuti oleh tag "id". ingat pola nya-->
+				<label for="nama">Nama</label><br><br>
+				<input type="text" name="nama" id="nama" placeholder="Nama anda"><br><br>
+				<!-- label alamat -->
+				<label for="alamat">Alamat</label><br><br>
+				<input type="text" name="alamat" id="alamat"><br><br>
+				<!-- label tgl lahir, type yng digunalan date dan akan muncul kalender pada browser -->
+				<label for="tgl_lahir">Tanggal lahir</label><br><br>
+				<input type="date" name="tgl_lahir" id="tgl_lahir"><br><br>
+				<!-- label jnis kelamin menggunakan type "radio",menggunakan dua nilai input yaknikni laki- laki/ perempuan-->
+				<label >Jenis Kelamin</label><br><br>
+				<input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="laki">Laki-laki
+				<input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Perempuan">Perempuan <br><br>
+				<!-- label hobby menggunakan type"checkbox" dan diulang inputnya serta menambahkan variabel yang ingin ditambahkan -->
+				<label for="hobby">Hobby</label><br><br>
+				<input type="checkbox" name="hobby" id="hobby">fotografi
+				<input type="checkbox" name="hobby" id="hobby">membaca
+				<input type="checkbox" name="hobby" id="hobby">mengaji
+				<input type="checkbox" name="hobby" id="hobby">bersepeda<br><br>
+				<!-- label email menggunakan type email -->
+				<label for="email">Email</label><br><br>
+				<input type="email" name="email" id="email"><br><br>
+				<!-- label password mengnakan type sandi, liat dibawah -->
+				<label for="sandi">Password</label><br><br>
+				<input type="Password" name="email" id="sandi"><br><br>
+				<!-- label optgroup digunakan untuk menambahkan pilihan liat contoh dibawah -->
+				<label for="kejuruan">Kejuruan</label>
+					<select id="kejuruan">
+						<optgroup label="TIK">
+							<option>PEMEROGRAMAN</option> 
+							<option>DESAIN GRAFIS</option>
+							<option>JARINGAN</option>
+						</optgroup>
+							<optgroup label="elektronika">
+							<option>AUDIO VIDEO</option>
+							<option>TEKNISI HP</option>
+							<option>TEKNISI V-SAT</option>
+						</optgroup>
+						<optgroup label="PERHOTELAN">
+							<option>BARISTA</option>
+							<option>HOUSE KEEPING</option>
+							<option>WAITTER</option>
+						</optgroup>
+						<optgroup label="REFRIGENERASI">
+							<option>AC SPLIT</option>
+							<option> AC KOMERSIL</option>
+					
+						</optgroup>	
+					</select><br><br>
+					<!-- taxt area membuat kolom komenta dan pesan -->
+			<textarea cols="60" rows="10" placeholder="wajib menulis pesan anda"></textarea><br><br>
+			<!-- membuat tombol kirm dan hapus -->
+			<input type="submit" name="" value="kirim">
+			<input type="submit" name="" value="hapus"><br><br>
+			<!-- membuat tombol submit/reset -->
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+
+		</fieldset>
+	</form>
+
+
+</body>
+</html>
